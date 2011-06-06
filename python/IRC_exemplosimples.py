@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+#guardar esse arquivo para estudos basicos e pra criar um tutorial no futuro...
 
 import sys
 import socket
