@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<aiml version="1.0.1" xmlns="http://alicebot.org/2001/AIML-1.0.1"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://alicebot.org/2001/AIML-1.0.1 http://aitools.org/aiml/schema/AIML.xsd">
+ 
+<category>
+	<pattern>*</pattern>
+		<template>
+<random>
+    <li>Num entendi.</li>
+    <li>Hã?</li>
+    <li>hmm sei lá</li>
+    <li>sei não.</li>
+    </random>
+		</template>
+</category>
+ 
+<category>
+        <pattern>QUAL SEU NOME</pattern>
+        <template>Meu nome é Yupana.</template>
+</category>
+
+<category>
+<pattern>COMO * CHAMA</pattern> 
+<template><srai>QUAL SEU NOME</srai></template> 
+</category>
+ 
+</aiml>
