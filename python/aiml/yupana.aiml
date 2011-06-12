@@ -24,7 +24,7 @@
 
 <category>
 <pattern>COMO VOCÊ CHAMA</pattern> 
-<template><srai>QUAL SEU NOME</srai></template> 
+<template><srai>QUAL SEU NOME </srai></template> 
 </category>
 
 <category>
@@ -33,7 +33,7 @@
 </category>
 
 <category>
-<pattern>COMO VC CHAMA</pattern> 
+<pattern>COMO VC * CHAMA</pattern> 
 <template><srai>QUAL SEU NOME</srai></template> 
 </category>
 
