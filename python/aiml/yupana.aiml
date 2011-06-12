@@ -23,8 +23,20 @@
 </category>
 
 <category>
-<pattern>COMO * CHAMA</pattern> 
+<pattern>COMO VOCÊ CHAMA</pattern> 
 <template><srai>QUAL SEU NOME</srai></template> 
 </category>
+
+<category>
+<pattern>COMO C CHAMA</pattern> 
+<template><srai>QUAL SEU NOME</srai></template> 
+</category>
+
+<category>
+<pattern>COMO VC CHAMA</pattern> 
+<template><srai>QUAL SEU NOME</srai></template> 
+</category>
+
+
  
 </aiml>
