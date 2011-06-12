@@ -1,0 +1,7 @@
+% cd yupana_kernel
+% git remote add yupana git://github.com/yupana/yupana.git
+% git fetch yupana
+% git branch master_yupana yupana/master
+% git branch experimentos_yupana yupana/experimentos
+
+%git merge "nome da branch"
