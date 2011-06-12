@@ -1,0 +1,67 @@
+8
+
+dir
+77
+https://pygtalkrobot.googlecode.com/svn/trunk/pygtalkrobot/src
+https://pygtalkrobot.googlecode.com/svn
+
+
+
+2008-04-28T13:58:11.983258Z
+77
+ldmiao
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+042f34ec-b249-0410-8317-d9561670e1e7
+
+gpl.txt
+file
+
+
+
+
+2008-04-01T02:10:24.044641Z
+d32239bcb673463ab874e80d47fae504
+2008-04-01T02:13:58.307022Z
+17
+ldmiao
+
+GoogleNoteBookBot
+dir
+
+PyGtalkRobot.py
+file
+79
+
+
+
+2008-05-06T03:25:10.560020Z
+06868e82e818952c4dd1c1b95c3d3575
+2008-05-06T05:56:43.577635Z
+79
+ldmiao
+
+sampleRobot.py
+file
+
+
+
+
+2008-04-18T07:34:44.015599Z
+4abf175d5ab9631618a4f2ba61e28b9f
+2008-04-18T08:06:32.775500Z
+68
+ldmiao
+
