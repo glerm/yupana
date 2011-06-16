@@ -58,7 +58,7 @@ class SampleBot(GtalkRobot):
    #         self.replyMessage(user, "State settings changed！")
 
         # Verify if the user is the Administrator of this bot
-        if jid == ('brunotarin@gmail.com') :
+        if jid == ('organismo@gmail.com') :
             print jid, " ---> ",bot.getResources(jid), bot.getShow(jid), bot.getStatus(jid)
             self.setState(show, status)
             self.replyMessage(user, "State settings changed！")
