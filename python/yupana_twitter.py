@@ -24,7 +24,7 @@ busca = api.GetUserTimeline('dasilvaorg')+api.GetUserTimeline('glerm')+api.GetUs
 for b in busca:
 	frase=frase+b.text
 
-frase = scramble(frase)
+frase = scramble(frase)#embaralhador
 
 print frase[:439]
 
