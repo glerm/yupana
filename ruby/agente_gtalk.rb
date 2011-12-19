@@ -7,13 +7,14 @@ puts "Carregando Repositório..."
 require 'consulta_natural'
 
 Jabber::debug = true
+user = "yupana"
 
 # conectar
 puts "Conectando..."
-client = Client.new(JID::new("agente@baixogavea.com/bot"))
+client = Client.new(JID::new("#{user}/bot"))
 client.connect
-client.auth("agentebaixogavea*")
-client.send(Presence.new(nil, "consulta-natural v0.2").set_type(:available))
+client.auth("#{user}")
+client.send(Presence.new(nil, "#{user}/bot").set_type(:available))
 roster = Roster::Helper.new(client)
 puts "Conectado!"
 
@@ -22,8 +23,7 @@ roster.add_subscription_request_callback do |item, pres|
   puts "Subscription de: #{pres.from}"
   roster.accept_subscription(pres.from)
   client.send(Message::new(pres.from, "Olá, bem-vindo à embarcação."))
-  client.send(Message::new(pres.from, 'Todo meu conhecimento é construído coletivamente através do http://baixogavea.com, são 107 usuários, 2913 bandas e 6661 álbuns. Colabore!'))
-  client.send(Message::new(pres.from, "Atualmente vc pode me perguntar sobre a relação entre bandas, albuns, seu ano, o usuario que o adicionou e onde fazer o download."))
+  client.send(Message::new(pres.from, 'Todo meu conhecimento é construído coletivamente Colabore!'))
   save_history(pres.from.to_s.split("/")[0], "Subscription")
 end
 
